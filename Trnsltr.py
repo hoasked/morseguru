@@ -153,7 +153,7 @@ selected_language = "English"
 # Root Window
 win = tk.Tk()
 win.resizable(False, False)
-win.title("MorseWave")
+win.title("MorseGuru")
 win.geometry("500x250")
 win.configure(bg="#F0EEE9")
 entry = tk.Entry(win, fg="#c4c3c0")
@@ -170,7 +170,7 @@ name = tk.Text(
     borderwidth=5,
 )
 name.tag_configure("center", justify="center")
-name.insert(tk.END, "MorseWave Translator", "center")
+name.insert(tk.END, "MorseGuru Translator", "center")
 name.config(state="disabled", fg="#00422b")
 version = tk.Text(
     win,
